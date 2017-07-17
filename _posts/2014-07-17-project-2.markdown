@@ -4,7 +4,9 @@ layout: default
 modal-id: 2
 date: 2017-07-15
 iframe: https://docs.google.com/forms/d/e/1FAIpQLScII7q3xuZtqoo5I2T0Je6RBOfPfICFx_RSXbKbPNnsvYzg1Q/viewform?embedded=true
-iframeheight: 3100
+iframeheight: 150
+iframewidth: 100%
+iframeid: regframe
 alt: image-alt
 
 description: The registration for the conference.

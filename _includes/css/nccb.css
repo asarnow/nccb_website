@@ -1,0 +1,15 @@
+#portfoilioModal2 {
+    overflow: hidden;
+}
+
+#regframe {
+    overflow: scroll;
+}
+
+#portfolioModal3 {
+    overflow: visible;
+}
+
+#sponsorframe {
+    overflow: visible;
+}

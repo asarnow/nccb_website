@@ -106,8 +106,10 @@
                                  <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"></a>
                             {% else %}
                                {% if post.iframe %}
-                                  <iframe src="{{ post.iframe }}" width="600"
-                                          height="{{ post.iframeheight }}"
+                               <iframe src="{{ post.iframe }}"
+                                  width="{{ post.iframewidth }}"
+                                  height="{{ post.iframeheight }}"
+                                  id="{{ post.iframeid }}"
                                   frameborder="0"
                                   marginheight="0"
                                   marginwidth="0">Loading...</iframe>
@@ -124,7 +126,7 @@
                                {% endif %}
                             {% endif %}
                             {% if post.description %}
-                                <p class="text-muted">{{ post.description }}</p>
+                                <!--p class="text-muted">{{ post.description }}</p-->
                             {% endif %}
                             <ul class="list-inline item-details">
                             </ul>
